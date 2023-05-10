@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./images/logo.svg" alt="logo">
+            </div>
+            <ul class="nav-bar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#" class="plan">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <button id="btn">Sign Up Form</button>
+            <form action="" method="post" class="form" id="form">
+                <div class="container" id="container">
+                    <div class="title">
+                        <h1>Sign Up</h1>
+                        <button type="btn" class="btn" onclick="myFunction()">Close</button>
+                    </div>
+                    <p class="text">Please fill in this form to create an account</p>
+                    <label for="name">Name:</label> <br>
+                    <input type="text" placeholder="Enter your Name" name="name" required> <br>
+                    <label for="name">Email:</label> <br>
+                    <input type="email" placeholder="Enter Email" name="email" required><br>
+                    <label for="name">Password:</label> <br>
+                    <input type="password" placeholder="Enter password" name="pwd" required><br>
+                    <button type="button" class="submit">Submit</button>
+                </div>   
+            </form>
+        </section>
+        <footer>
+            <div id="scroll-container">
+                <div id="scroll-text">Welcome to Crowdfund, We’re happy to have you onboard of our community.</div>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+</body>
+</html>
